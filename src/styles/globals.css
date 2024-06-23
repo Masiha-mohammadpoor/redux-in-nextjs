@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  overflow: hidden;
+  height: 100vh;
+  background: rgb(2,0,36);
+background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+
+.submit-btn {
+  background: rgb(19,7,219);
+  background: linear-gradient(227deg, rgba(19,7,219,1) 0%, rgba(61,61,196,1) 49%, rgba(0,212,255,1) 100%);}
