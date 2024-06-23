@@ -15,9 +15,12 @@ const authSlice = createSlice({
     },
     signout : () => {
       return initialState
+    },
+    changeAdmin : (state , action) => {
+      return {...state , isAdmin : !state.isAdmin}
     }
   }
 })
 
-export const {signin , signout} = authSlice.actions;
+export const {signin , signout , changeAdmin} = authSlice.actions;
 export default authSlice.reducer;
