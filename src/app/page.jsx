@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify';
 const Home = () => {
   return (
     <Provider store={store}>
-      <main>
+      <main className="px-3 h-screen pb-5">
         <Signin />
         <Info/>
       </main>
